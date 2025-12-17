@@ -10,6 +10,8 @@
 7. [Bezpečnosť](#bezpečnosť)
 8. [Dátový formát](#dátový-formát)
 9. [Riešenie problémov](#riešenie-problémov)
+10. [Výkon a optimalizácia](#výkon-a-optimalizácia)
+11. [Rozšírenia a customizácia](#rozšírenia-a-customizácia)
 
 ---
 
@@ -26,7 +28,7 @@ Mass Copy Detector je distribuovaný monitorovací systém určený na detekciu 
 1. PowerShell skript sa spúšťa pravidelne (každých 5 minút) na klientskych počítačoch
 2. Skript monitoruje aktivitu na sieťových diskoch pomocou Windows Audit logov alebo LastAccess časov
 3. Zhromaždené dáta sa odošlú cez HTTPS POST request na PHP API
-4. PHP API uloží dáta do JSON súboru a sprístupní ich cez webové rozhraníe
+4. PHP API uloží dáta do JSON súboru a sprístupní ich cez webové rozhranie
 5. Administrátori môžu cez webové rozhranie sledovať aktivity a alerty
 
 ---
