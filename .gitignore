@@ -1,0 +1,16 @@
+# Priečinok s dátami
+data/
+*.json
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
